@@ -1,4 +1,5 @@
 import React from 'react';
+import constants from 'constants'
 
 export default class DetailedResults extends React.Component {
     constructor(props) {
@@ -19,6 +20,6 @@ export default class DetailedResults extends React.Component {
     }
 }
 
-function getPictures(state: State) {
+function getPictures(state) {
     return 'this is a picture';
 }
